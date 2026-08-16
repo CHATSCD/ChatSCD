@@ -16,6 +16,12 @@ export function Header() {
           <Link href="/" className="hover:text-black dark:hover:text-white">
             Shop
           </Link>
+          <Link
+            href="/made4u"
+            className="hover:text-black dark:hover:text-white"
+          >
+            Made4U
+          </Link>
         </nav>
       </div>
     </header>
