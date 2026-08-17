@@ -1,0 +1,5 @@
+Thanks for testing Product Slot 2!
+
+This is a placeholder download file. Replace it with the real file for
+this product (zip, PDF, license key, install instructions, etc.) and
+update the `fileName` field for this product in lib/products.ts.
