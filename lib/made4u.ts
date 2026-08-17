@@ -48,8 +48,37 @@ export const made4uTiers: Made4uTier[] = [
   },
 ];
 
+// Training programs built to spec — same pay-first-then-questionnaire flow
+// as the app-build tiers above, just a different kind of deliverable.
+export const trainingTiers: Made4uTier[] = [
+  {
+    id: "training-program-kit",
+    name: "Training Program Kit",
+    priceCents: 24900,
+    currency: "usd",
+    bestFor: "A complete training package you teach yourself, built to your specs.",
+    features: [
+      "Teacher's Workbook, Student's Workbook, Study Guide",
+      "Certification Test & Certificate of Completion template",
+      "1-3 business day turnaround",
+    ],
+  },
+  {
+    id: "self-paced-training-course",
+    name: "Self-Paced Training Course",
+    priceCents: 34900,
+    currency: "usd",
+    bestFor: "The same training, packaged for independent, self-paced study.",
+    features: [
+      "Everything in the Training Program Kit",
+      "Formatted so learners can go through it on their own",
+      "1-3 business day turnaround",
+    ],
+  },
+];
+
 export function getMade4uTier(id: string): Made4uTier | undefined {
-  return made4uTiers.find((tier) => tier.id === id);
+  return made4uTiers.find((tier) => tier.id === id) ?? trainingTiers.find((tier) => tier.id === id);
 }
 
 export function formatMade4uPrice(cents: number, currency = "usd"): string {

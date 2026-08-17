@@ -49,31 +49,6 @@ export const products: Product[] = [
     fileName: "product-slot-three.txt",
     accent: "from-amber-500 to-orange-600",
   },
-  {
-    slug: "training-program-kit",
-    name: "Training Program Kit",
-    tagline:
-      "Everything you need to run the training yourself: workbooks, study guide, test, and certificate.",
-    description:
-      "A complete, ready-to-teach training package: Teacher's Workbook, Student's Workbook, Study Guide, Certification Test, and a Certificate of Completion template. Download once and train as many people as you need, on your own schedule.",
-    priceCents: 24900,
-    currency: "usd",
-    category: "Training",
-    fileName: "training-program-kit.txt",
-    accent: "from-rose-500 to-pink-600",
-  },
-  {
-    slug: "self-paced-training-course",
-    name: "Self-Paced Training Course",
-    tagline: "The full training class, ready to go at your own pace.",
-    description:
-      "The complete training class packaged for self-paced learning — go through it anytime, from anywhere, at your own speed. Includes the same workbooks, study guide, certification test, and certificate template as the Training Program Kit, formatted for independent study.",
-    priceCents: 34900,
-    currency: "usd",
-    category: "Training",
-    fileName: "self-paced-training-course.txt",
-    accent: "from-sky-500 to-blue-600",
-  },
 ];
 
 export function getProduct(slug: string): Product | undefined {
