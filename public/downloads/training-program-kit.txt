@@ -1,0 +1,6 @@
+Thanks for purchasing the Training Program Kit!
+
+This is a placeholder download file. Replace it with the real bundle
+(Teacher's Workbook, Student's Workbook, Study Guide, Certification Test,
+and Certificate of Completion template — as a zip or PDF set) and update
+the `fileName` field for this product in lib/products.ts.

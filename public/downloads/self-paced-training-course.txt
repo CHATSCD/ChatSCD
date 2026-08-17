@@ -1,0 +1,6 @@
+Thanks for purchasing the Self-Paced Training Course!
+
+This is a placeholder download file. Replace it with the real course
+materials (workbooks, study guide, certification test, certificate
+template, and any lesson content) and update the `fileName` field for
+this product in lib/products.ts.
