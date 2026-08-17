@@ -14,15 +14,21 @@ export function Hero() {
           </h1>
           <div className="mt-5 space-y-4 text-lg text-black/70 dark:text-white/70">
             <p>
-              I&apos;m Shaun Dubuisson. For over a decade I&apos;ve run retail
-              and restaurant operations — general manager at Subway,
+              I&apos;m Shaun Dubuisson. For over a decade I&apos;ve run
+              retail and restaurant operations — general manager at Subway,
               department manager at Ollie&apos;s Bargain Outlet, sales
               leadership at Verizon Wireless, and partner running a seafood
               restaurant. Right now I coordinate food &amp; beverage
-              operations across 43 store locations in Mississippi and
-              Alabama for Keith&apos;s Superstore: inventory, compliance
-              audits, count sheets, staff accountability — all at once,
-              across dozens of locations.
+              operations across 43 locations for a regional convenience
+              store chain in Mississippi and Alabama.
+            </p>
+            <p>
+              When I started, it was a total mess — everything ran on
+              paperwork and spreadsheets, no central place to see what was
+              actually happening across the stores. So I started building
+              the apps myself: inventory tracking, compliance checklists,
+              count sheets, staff accountability — all in one place instead
+              of scattered across a hundred sheets of paper.
             </p>
             <p>
               Every app in this store started the same way: a real problem I
