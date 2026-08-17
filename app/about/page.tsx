@@ -46,7 +46,7 @@ export default function AboutPage() {
         </div>
         <div className="relative mx-auto aspect-[3/4] w-full max-w-[280px] overflow-hidden rounded-2xl bg-black/5 dark:bg-white/5">
           <Image
-            src="/images/shaun-car.jpg"
+            src="/images/shaun-office.jpg"
             alt="Shaun Dubuisson"
             fill
             sizes="280px"
