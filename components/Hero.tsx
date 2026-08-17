@@ -46,7 +46,7 @@ export function Hero() {
         </div>
         <div className="relative mx-auto aspect-[3/4] w-full max-w-[320px] overflow-hidden rounded-2xl bg-black/5 dark:bg-white/5">
           <Image
-            src="/images/shaun-casual.jpg"
+            src="/images/shaun-car.jpg"
             alt="Shaun Dubuisson"
             fill
             sizes="320px"
