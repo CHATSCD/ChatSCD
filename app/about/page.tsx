@@ -1,18 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function Hero() {
+export default function AboutPage() {
   return (
-    <section className="border-b border-black/10 dark:border-white/10">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-6 py-16 sm:grid-cols-[1fr_320px] sm:py-20">
+    <div className="mx-auto max-w-4xl px-6 py-16">
+      <div className="grid grid-cols-1 items-start gap-10 sm:grid-cols-[1fr_280px]">
         <div>
           <span className="text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
-            12+ years on the retail floor
+            About
           </span>
-          <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">
-            I build the tools I always wished I had.
+          <h1 className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
+            12+ years on the retail floor.
           </h1>
-          <div className="mt-5 space-y-4 text-lg text-black/70 dark:text-white/70">
+          <div className="mt-6 space-y-4 text-lg text-black/70 dark:text-white/70">
             <p>
               I&apos;m Shaun Dubuisson. For over a decade I&apos;ve run
               retail and restaurant operations — general manager at Subway,
@@ -39,22 +39,21 @@ export function Hero() {
           </div>
           <Link
             href="/made4u"
-            className="mt-6 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-indigo-500"
+            className="mt-8 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white transition hover:bg-indigo-500"
           >
             Need something built for you? &rarr;
           </Link>
         </div>
-        <div className="relative mx-auto aspect-[3/4] w-full max-w-[320px] overflow-hidden rounded-2xl bg-black/5 dark:bg-white/5">
+        <div className="relative mx-auto aspect-[3/4] w-full max-w-[280px] overflow-hidden rounded-2xl bg-black/5 dark:bg-white/5">
           <Image
             src="/images/shaun-car.jpg"
             alt="Shaun Dubuisson"
             fill
-            sizes="320px"
+            sizes="280px"
             className="object-cover"
-            priority
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 }

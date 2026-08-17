@@ -55,12 +55,14 @@ export default function Made4uPage() {
       </section>
 
       <TierSection
+        id="apps"
         title="Custom apps"
         blurb="Not sure which one fits? Pick your best guess — if the scope is different once we see your questionnaire, we'll tell you before doing any extra work."
         tiers={made4uTiers}
       />
 
       <TierSection
+        id="training"
         title="Training programs"
         blurb="Built to your content and audience — workbooks, study guide, certification test, and certificate, packaged the way you need it."
         tiers={trainingTiers}
@@ -70,16 +72,18 @@ export default function Made4uPage() {
 }
 
 function TierSection({
+  id,
   title,
   blurb,
   tiers,
 }: {
+  id: string;
   title: string;
   blurb: string;
   tiers: Made4uTier[];
 }) {
   return (
-    <section className="mt-16">
+    <section id={id} className="mt-16 scroll-mt-20">
       <h2 className="text-2xl font-bold tracking-tight">{title}</h2>
       <p className="mt-2 text-black/60 dark:text-white/60">{blurb}</p>
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3">

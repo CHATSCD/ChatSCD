@@ -22,6 +22,12 @@ export function Header() {
           >
             Made4U
           </Link>
+          <Link
+            href="/about"
+            className="hover:text-black dark:hover:text-white"
+          >
+            About
+          </Link>
         </nav>
       </div>
     </header>
